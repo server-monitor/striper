@@ -1,24 +1,22 @@
-# README
+# Demo for integrating [Stripe](https://stripe.com/) with Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+How to run locally:
 
-Things you may want to cover:
+1. Clone this repo.
 
-* Ruby version
+2. `cd striper`
 
-* System dependencies
+3. `bundle install`
 
-* Configuration
+4. Create a [Stripe](https://stripe.com/) account.
 
-* Database creation
+5. Get your [API keys](https://dashboard.stripe.com/account/apikeys)
 
-* Database initialization
+6. Enter your keys in `config/application.yml`. For example:
 
-* How to run the test suite
+    PUBLISHABLE_KEY: pk_test_abcdefgh
+    SECRET_KEY: sk_test_abcdefgh
 
-* Services (job queues, cache servers, search engines, etc.)
+7. `rails s`
 
-* Deployment instructions
-
-* ...
+8. Navigate your browser to [localhost:3000](http://localhost:3000)
