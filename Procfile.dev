@@ -1,0 +1,2 @@
+job: zeus start
+web: /main/system/exec/fzl_foreman-zeus-launcher.d/launch-server-after-zeus-start
